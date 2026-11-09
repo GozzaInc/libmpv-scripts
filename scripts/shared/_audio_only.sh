@@ -143,7 +143,7 @@ AUDIO_FILTERS+=",aecho,chorus,flanger,aphaser,apulsator,tremolo,vibrato"
 # ── Restoration / Noise ─────────────────────────────────────────────────────
 AUDIO_FILTERS+=",afftdn,afwtdn,anlmdn,arnndn,adeclick,adeclip,adenorm,aderivative,aintegral,dcshift,hdcd,silenceremove"
 # ── Loudness / Metering ─────────────────────────────────────────────────────
-AUDIO_FILTERS+=",loudnorm,ebur128,drmeter"
+AUDIO_FILTERS+=",loudnorm,ebur128,drmeter,astats,anull"
 # ── Misc / Analysis ─────────────────────────────────────────────────────────
 AUDIO_FILTERS+=",aeval,afftfilt,acontrast"
 export AUDIO_FILTERS
